@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__navbar__button {
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    background: #e0515f;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s linear;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__navbar__button:hover {
+    background: #C82333;
 }
 
-.App-link {
-  color: #61dafb;
+.app__navbar__button__colab {
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    background: #4a69bd;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s linear;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__navbar__button__colab:hover {
+    background: #1e3799;
+}
+
+.app__outer {
+    flex: 1;    /*take entire available area*/
+    width: 100%;
+}
+
+.app__boards {
+    padding: 20px;
+    /*height: 100%;*it will adjust according to its prent*/
+    min-width: fit-content;
+    display: flex;
+    /*flex-direction: column;*/ /*for mobile friendliness*/
+    gap: 30px;
+}
+
+.app__boards__newBoard {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.app__boards__newBoard:hover {
+    box-shadow: 1px 2px 0 1px #cccccc;
 }

@@ -1,0 +1,31 @@
+.cardinfo {
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+}
+
+.cardinfo__box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.cardinfo__box__title {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+

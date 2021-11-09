@@ -1,0 +1,40 @@
+.card {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card__top {
+    display: flex;
+    gap: 5px;
+}
+
+.card__top h4 {
+    flex: 1;
+    display: flex;
+}
+
+.card__top svg {
+    height: 15px;
+    width: 15px;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.card:hover .card__top svg {
+    opacity: 1;
+}
+
+.card__bottom p {
+    display: flex;
+    gap: 2.5px;
+    align-items: center;/*vertical alignment*/
+}
+
+.card__bottom svg {
+    height: 15px;
+    width: 15px;
+}
