@@ -8,6 +8,11 @@ import CardInfo from './CardInfo/CardInfo'
 function Card(props) {
 
     const [showModal,setShowModal] = useState(false);
+    const [background,setBackground] = useState("#ffffff"); //this is working
+
+    const changeBg = () => {
+        setBackground("#585abd");
+    }
 
     return (
         <>
@@ -21,7 +26,9 @@ function Card(props) {
         <div className="card" draggable
         onDragEnd={()=>props.handleDragEnd(props.card?.id,props.boardId)}
         onDragEnter={()=>props.handleDragEnter(props.card?.id,props.boardId)}
-        onClick={()=>setShowModal(true)}
+        onDoubleClick={()=>setShowModal(true)}
+        style={{backgroundColor: background}}
+        onClick={changeBg}
         >
             <div className="card__top">
                 <h4>{props.card?.title}</h4>

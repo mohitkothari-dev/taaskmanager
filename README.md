@@ -17,3 +17,10 @@ A user should be able to:
 ### `Mega Bonus features`
 * Collaboration: Share the link of the canvas with a peer. Both peers can edit the same canvas in real-time. `done` **separately on localhost can't host it online**
 * Persistence: Persist the state of the board when it is modified and restore it when the user opens the same link again. `done`
+
+# How to use this application?
+
+The application will start in localhost. Where,
+* You can add, remove and update the Cards.
+* **Single click** on the card to **Change the background color** and **double click to open Modal to update existing data**
+* Click on the red button to toggle between **Drawing Canvas** and **Task Scheduler**
