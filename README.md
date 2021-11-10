@@ -17,4 +17,3 @@ A user should be able to:
 ### `Mega Bonus features`
 * Collaboration: Share the link of the canvas with a peer. Both peers can edit the same canvas in real-time. `done` **separately on localhost can't host it online**
 * Persistence: Persist the state of the board when it is modified and restore it when the user opens the same link again. `done`
-

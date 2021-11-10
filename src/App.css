@@ -60,7 +60,6 @@
     /*height: 100%;*it will adjust according to its prent*/
     min-width: fit-content;
     display: flex;
-    /*flex-direction: column;*/ /*for mobile friendliness*/
     gap: 30px;
 }
 
@@ -74,4 +73,10 @@
 
 .app__boards__newBoard:hover {
     box-shadow: 1px 2px 0 1px #cccccc;
+}
+
+@media (max-width: 768px) {
+    .app__boards {
+        flex-direction: column;
+    }
 }
