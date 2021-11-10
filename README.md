@@ -1,6 +1,9 @@
 # Task Scheduler + Drawing App
 A small web-app which allows users to arrange sticky notes on a canvas.
 
+## App URL
+https://mohit-taskscheduler.netlify.app/
+
 ### `Minimal feature-set`
 A user should be able to:
 * Add a sticky note anywhere on the screen. `done`
