@@ -29,7 +29,7 @@ input {
     align-items: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 374px) {
     .cardinfo {
         width: 290px;
     }
