@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import { Calendar, List, Type } from 'react-feather'
-import { useState,useEffect } from 'react/cjs/react.development'
 import Modal from '../../../Modal/Modal'
 import Add from '../../Add/Add'
 import './CardInfo.css'

@@ -1,7 +1,6 @@
 /* Represents every individual card */
-import React from 'react'
+import React, {useState} from 'react'
 import { Clock, Trash } from 'react-feather'
-import { useState } from 'react/cjs/react.development'
 import './Card.css'
 import CardInfo from './CardInfo/CardInfo'
 
