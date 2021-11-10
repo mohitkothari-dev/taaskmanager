@@ -140,7 +140,7 @@ function App() {
 
   useEffect(() => {
     if (clicked) {
-      window.location.assign('https://angel.co/');
+      window.location.assign('https://collaborative-drawing-demo.herokuapp.com/');
     }
   }) 
 
