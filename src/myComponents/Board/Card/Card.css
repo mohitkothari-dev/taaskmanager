@@ -29,8 +29,14 @@
 
 .card__bottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.card__bottom__div {
+    display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .card__bottom__color {

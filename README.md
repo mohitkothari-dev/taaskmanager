@@ -13,13 +13,17 @@ A user should be able to:
 * Clear the canvas of all sticky notes. `done` 
 
 ### `Bonus features`
-*  Drawing: Add ability to draw anywhere on the canvas `done`
+* Color: Add ability to change the color of a sticky note. `done`
+* Drawing: Add ability to draw anywhere on the canvas `done`
 * (super bonus if you add ability to erase) `done`
 * Images: Add ability to upload images to the canvas. `done`
 
 ### `Mega Bonus features`
 * Collaboration: Share the link of the canvas with a peer. Both peers can edit the same canvas in real-time. `done`
 * Persistence: Persist the state of the board when it is modified and restore it when the user opens the same link again. `done`
+
+### `Additional feature`
+* Added the ability to change the font and the button color of the card.
 
 # How to use this application?
 
