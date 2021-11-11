@@ -27,8 +27,18 @@
     opacity: 1;
 }
 
-.card__bottom p {
+.card__bottom {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card__bottom__color {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__bottom p {
     gap: 2.5px;
     align-items: center;/*vertical alignment*/
 }
