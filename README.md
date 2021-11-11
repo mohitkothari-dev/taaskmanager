@@ -29,6 +29,7 @@ A user should be able to:
 
 The application will start in localhost. Where,
 * You can add, remove and update the Cards.
-* **Single click** on the card to **Change the background color** and **double click to open Modal to update existing data**
+* You can even change the color of the background and font also.
+* **Double click to open Modal to update existing data**
 * Click on the red button to toggle between **Drawing Canvas** and **Task Scheduler**
 * Click on the **Collab** button to open the collaborative drawing app. Open two parallel browser windows and then start drawing.
