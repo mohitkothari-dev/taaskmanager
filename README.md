@@ -1,5 +1,5 @@
 # Task Scheduler + Drawing App
-A small web-app which allows users to arrange sticky notes on a canvas.
+A small web app that allows users to arrange sticky notes on a canvas as well as collaborative drawing.
 
 ## App URL
 https://mohit-taskscheduler.netlify.app/
